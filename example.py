@@ -9,3 +9,4 @@ AgGrid(df)
 
 if st.button("sound"):
   chime.success()
+  chime.info(sync=True)
